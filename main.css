@@ -2,7 +2,6 @@
   box-shadow: border-box; }
 
 .attempts {
-  background-color: red;
   width: 200px;
   height: 20px;
   position: absolute;
@@ -38,12 +37,11 @@ button {
   position: relative; }
 
 footer {
-  background-color: red;
   width: 200px;
   height: 20px;
   float: right;
   position: absolute;
-  bottom: 130px;
+  bottom: 480px;
   left: 545px; }
 
 .gameContainer {
