@@ -1,70 +1,67 @@
-*{
-  box-shadow: border-box;
+* {
+    box-shadow: border-box;
+    font-family: sans-serif;
 }
 
-.attempts{
-  width: 200px;
-  height: 20px;
-  position: absolute;
-  float: right;
-  top: 60px;
-  left:545px;
+#attempts {
+    width: 400px;
+    position: absolute;
+    top: 60px;
+    left: 440px;
+    text-align: center;
 }
 
-body{
-  background-color: lightgrey;
-
+body {
+    background-color: lightgrey;
 }
 
-button{
-  background: #444;
-  color:white;
-  border-radius: 10px;
-  width: 100px;
-  height: 35px;
-  border: 1px solid white;
-  font-family: sans-serif;
-  font-size: 16px;
-  position: relative;
-  left:152.5px;
-  bottom:60px;
-
+button {
+    background: #444;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid white;
+    font-size: 16px;
+    position: relative;
+    left: 152.5px;
+    bottom: 60px;
 }
 
-.diceOne, .diceTwo{
-  width: 75px;
-  height: 75px;
-  background-color: lightgrey;
-  border: 1px solid #444;
-  float:right;
-  margin: 50px;
-  right:20px;
-  bottom:20px;
-  position: relative;
+#diceOne,
+#diceTwo {
+    width: 75px;
+    height: 75px;
+    background-color: lightgrey;
+    border: 1px solid #444;
+    float: right;
+    margin: 50px;
+    right: 20px;
+    bottom: 20px;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    line-height: 4;
 }
 
-footer{
-  width:200px;
-  height:20px;
-  float:right;
-  position: absolute;
-  bottom:480px;
-  left:545px;
+#startTime {
+    float: right;
+    position: absolute;
+    top: 230px;
+    left: 515px;
 }
 
-.gameContainer{
-  margin: 0 auto;
-  width:400px;
-  height:250px;
-  border: 1px solid #444;
-  border-radius: 20px;
-  background-color: white;
+.gameContainer {
+    margin: 0 auto;
+    width: 400px;
+    height: 250px;
+    border: 1px solid #444;
+    border-radius: 20px;
+    background-color: white;
 }
 
-h3{
-  z-index: 6;
-  left:160px;
-  position: relative;
-  font-family: sans-serif;
-  color: #444;
+h3 {
+    position: relative;
+    color: #444;
+    text-align: center;
 }
